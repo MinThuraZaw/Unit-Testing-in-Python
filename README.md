@@ -1,2 +1,2 @@
-# Unit-Testing-in-Python-with-Pytest
-Simple unit testing using pytest.
+# About
+* Simple unit testing using pytest.
