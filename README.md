@@ -16,3 +16,6 @@ Unit testing using pytest with Test Driven Development process.
 
 ![alt text](https://github.com/MinThuraZaw/Unit-Testing-in-Python/blob/main/images/tdd.png)
 
+<br>
+* I refactored test cases in the refactor step so it won't include small tests for the production functions.
+
