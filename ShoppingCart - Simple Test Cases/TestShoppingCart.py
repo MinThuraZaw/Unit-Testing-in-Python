@@ -12,17 +12,20 @@ def shopping_cart():
 
 
 #test - can add item
+#test - can calculate the current total
 def test_can_calculate_total(shopping_cart):
     shopping_cart.add_item('coffee cup')
     assert shopping_cart.calculate_total() == 5
 
 
+#test - can add multiple items and get total
 def test_get_total_with_multiple_items(shopping_cart):
     shopping_cart.add_item('mouse')
     shopping_cart.add_item('coffee cup')
     assert shopping_cart.calculate_total() == 55
 
 
+#test - can add discount rules
 def test_can_add_discount_rule(shopping_cart):
     shopping_cart.add_discount('mouse', 5, 20)
 
