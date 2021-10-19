@@ -7,6 +7,7 @@ from LineReader import read_from_file
 # def test_can_read_from_file():
 #     read_from_file('file')
 
+#mock open using monkeypatch fixture
 @pytest.fixture()
 def mock_open(monkeypatch):
     mock_file = MagicMock()
