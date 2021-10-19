@@ -18,5 +18,7 @@ Unit testing using pytest with Test Driven Development process.
 
 <br>
 
-* I refactored test cases in the refactor step so it won't include small tests for the production functions.
+* All tests are implemented using TDD process.
+* Some small tests are refactored in the refactor step so they won't include in the final test cases.
+
 
