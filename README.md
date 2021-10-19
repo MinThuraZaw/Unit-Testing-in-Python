@@ -1,4 +1,6 @@
 # About
-* Simple unit testing using pytest.
+* Unit testing using pytest with Test Driven Development process.
 
-# Readme needs some update. Still in progress.
+# Requirements
+
+# Development Steps
