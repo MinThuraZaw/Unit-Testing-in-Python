@@ -16,6 +16,8 @@ def mock_open(monkeypatch):
     return mock_open
 
 
+#test - can call read_from_file
+#test - return correct string
 def test_return_correct_string(mock_open, monkeypatch):
     mock_exists = MagicMock(return_value=True)
     monkeypatch.setattr('os.path.exists', mock_exists)
@@ -25,6 +27,7 @@ def test_return_correct_string(mock_open, monkeypatch):
     assert result == 'test line'
 
 
+#test - throw exception when filename doesn't exist
 def test_throw_exception_with_bad_file(mock_open, monkeypatch):
     mock_exists = MagicMock(return_value=False)
     monkeypatch.setattr('os.path.exists', mock_exists)
