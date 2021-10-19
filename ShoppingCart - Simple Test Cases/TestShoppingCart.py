@@ -1,7 +1,8 @@
 import pytest
 from ShoppingCart import ShoppingCart
 
-
+#test - can create instance of ShoppingCart class
+#test - can add item price
 @pytest.fixture()
 def shopping_cart():
     cart = ShoppingCart()
@@ -10,6 +11,7 @@ def shopping_cart():
     return cart
 
 
+#test - can add item
 def test_can_calculate_total(shopping_cart):
     shopping_cart.add_item('coffee cup')
     assert shopping_cart.calculate_total() == 5
