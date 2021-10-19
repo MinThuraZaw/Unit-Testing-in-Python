@@ -30,6 +30,7 @@ def test_can_add_discount_rule(shopping_cart):
     shopping_cart.add_discount('mouse', 5, 20)
 
 
+#test - can apply discount rules to the total
 def test_can_apply_discount_rule(shopping_cart):
     shopping_cart.add_discount('mouse', 3, 85)
     shopping_cart.add_item('mouse')
@@ -38,6 +39,7 @@ def test_can_apply_discount_rule(shopping_cart):
     assert shopping_cart.calculate_total() == 85
 
 
+#test - exception is thrown when item added without its price
 def test_exception_with_bad_item(shopping_cart):
     with pytest.raises(Exception):
         shopping_cart.add_item('headphone')
