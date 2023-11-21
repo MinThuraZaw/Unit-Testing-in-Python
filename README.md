@@ -21,7 +21,7 @@ Unit testing using pytest with Test Driven Development process.
 
 ### Development Steps
 
-![alt text](https://github.com/MinThuraZaw/Unit-Testing-in-Python/blob/main/images/tdd.png)
+![alt text](https://github.com/MinThuraZaw/Unit-Testing-in-Python/blob/main/images/python_tdd.png)
 
 
 
